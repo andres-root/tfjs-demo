@@ -1,6 +1,4 @@
 import Head from 'next/head'
-import * as tf from '@tensorflow/tfjs-node'
-
 
 export default function Home() {
   return (
@@ -8,6 +6,7 @@ export default function Home() {
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
+        <script src='https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest'></script>
       </Head>
 
       <main>
