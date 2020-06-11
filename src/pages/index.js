@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Detector from '../components/cam'
+import Predictor from '../components/predictor'
 
 export default function Home() {
   return (
@@ -7,11 +7,10 @@ export default function Home() {
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
-        <script src='https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest'></script>
       </Head>
 
       <main>
-        <Detector />
+        <Predictor />
         <h1 className="title">
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
