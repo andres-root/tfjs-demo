@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Detector from '../components/cam'
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       </Head>
 
       <main>
+        <Detector />
         <h1 className="title">
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
